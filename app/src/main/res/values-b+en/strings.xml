@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PayList</string>
+    <string name="date_period">Period:</string>
+    <string name="dates_sep">-</string>
+    <string name="fab_new">Insert new</string>
+    <string name="fab_stats">Get stats</string>
+    <string name="fab_filter">Filter records</string>
+    <string name="fab_all">View all</string>
+    <string name="fab_history">History</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">Save</string>
+    <string name="modify_button">Modify</string>
+    <string name="delete_button">Delete</string>
+    <string name="filter_button">Filter</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="incomes">Incomes</string>
+    <string name="expenses">Expenses</string>
+    <string name="net">Net</string>
+    <string name="in_and_out">Both</string>
+    <string name="empty_type">-</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="record_update">Updated:</string>
+    <string name="save_btn_string">You have not modified anything yet!</string>
+    <string name="total_incomes">Total incomes:</string>
+    <string name="total_expenses">Total expenses:</string>
+    <string name="total_difference">Net incomes:</string>
+    <string name="greater_income">Greater income:</string>
+    <string name="greater_expense">Greater expense:</string>
+    <string name="euro_symbol">€</string>
+    <string name="daily_report">Daily report</string>
+    <string name="monthly_report">Monthly report</string>
+    <string name="yearly_report">Yearly report</string>
+</resources>
