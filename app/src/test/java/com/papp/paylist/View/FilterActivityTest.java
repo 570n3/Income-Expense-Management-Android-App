@@ -1,4 +1,4 @@
-package com.papp.paylist;
+package com.papp.paylist.View;
 
 import com.papp.paylist.Model.DataManager;
 import com.papp.paylist.View.FilterActivity;

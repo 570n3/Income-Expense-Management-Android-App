@@ -1,4 +1,4 @@
-package com.papp.paylist;
+package com.papp.paylist.Controller;
 
 import org.junit.Test;
 

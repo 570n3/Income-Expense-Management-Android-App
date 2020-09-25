@@ -1,4 +1,4 @@
-package com.papp.paylist;
+package com.papp.paylist.Controller;
 
 import com.papp.paylist.Controller.PayListDetail;
 
@@ -6,17 +6,22 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class PayListDetailTest {
+public class RecyclerItemClickListenerTest {
 
     @Test
-    public void onCreate() {
-
+    public void onInterceptTouchEvent() {
         int result = PayListDetail.EXPENSE;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void onResume() {
+    public void onTouchEvent() {
+        int result = PayListDetail.EXPENSE;
+        assertNotEquals("Wrong", 12,12.5);
+    }
+
+    @Test
+    public void onRequestDisallowInterceptTouchEvent() {
         int result = PayListDetail.EXPENSE;
         assertNotEquals("Wrong", 12,12.5);
     }
