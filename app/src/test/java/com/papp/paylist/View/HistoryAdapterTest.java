@@ -7,20 +7,20 @@ import static org.junit.Assert.*;
 public class HistoryAdapterTest {
 
     @Test
-    public void onCreateViewHolder() {
+    public void TestonCreateViewHolder() {
         int result = FilterActivity.TAG;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void onBindViewHolder() {
-        int result = FilterActivity.TAG;
-        assertNotEquals("Wrong", 12,12.5);
+    public void TestonBindViewHolder() {
+        int result = FilterActivity.BOTH;
+        assertNotEquals("Wrong", 50,120);
     }
 
     @Test
-    public void getItemCount() {
-        int result = FilterActivity.TAG;
-        assertNotEquals("Wrong", 12,12.5);
+    public void TestgetItemCount() {
+        int result = FilterActivity.INCOME;
+        assertNotEquals("Wrong", 200,199);
     }
 }

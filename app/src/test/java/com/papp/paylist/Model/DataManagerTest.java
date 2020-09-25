@@ -1,4 +1,4 @@
-package com.papp.paylist;
+package com.papp.paylist.Model;
 
 import com.papp.paylist.Model.DataManager;
 
@@ -9,97 +9,97 @@ import static org.junit.Assert.*;
 public class DataManagerTest {
 
     @Test
-    public void paytabInsert() {
+    public void TestpaytabInsert() {
         String result = DataManager.TYPTAB_ID;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabUpdate() {
-        int result = DataManager.PAYTAB_DSCR_IDX;
+    public void TestpaytabUpdate() {
+        String result = DataManager.PAYTAB_ID;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabDelete() {
+    public void TestpaytabDelete() {
         int result = DataManager.UPDTAB_DSCR_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectAll() {
+    public void TestpaytabSelectAll() {
         int result = DataManager.PAYTAB_IORO_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelect() {
+    public void TestpaytabSelect() {
+        String result = DataManager.PAYTAB_TYPE;
+        assertNotEquals("Wrong", 12,12.5);
+    }
+
+    @Test
+    public void TestpaytabSelectById() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectById() {
+    public void TestpaytabSelectTotal() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectTotal() {
+    public void TestpaytabSelectMax() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectMax() {
+    public void TestpaytabSelectEuroGroupByType() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectEuroGroupByType() {
+    public void TestpaytabSelectEuroGroupByDate() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void paytabSelectEuroGroupByDate() {
+    public void TesttyptabInsert() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void typtabInsert() {
+    public void TesttyptabSelectTypes() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void typtabSelectTypes() {
+    public void TestupdtabInsert() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void updtabInsert() {
+    public void TestupdtabSelectIds() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void updtabSelectIds() {
+    public void TestupdtabSelectById() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void updtabSelectById() {
-        int result = DataManager.PAYTAB_DATE_IDX;
-        assertNotEquals("Wrong", 12,12.5);
-    }
-
-    @Test
-    public void countRows() {
+    public void TestcountRows() {
         int result = DataManager.PAYTAB_DATE_IDX;
         assertNotEquals("Wrong", 12,12.5);
     }

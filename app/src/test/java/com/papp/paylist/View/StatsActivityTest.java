@@ -7,14 +7,14 @@ import static org.junit.Assert.*;
 public class StatsActivityTest {
 
     @Test
-    public void onCreate() {
+    public void TestonCreate() {
         int result = StatsActivity.BIND_ADJUST_WITH_ACTIVITY;
-        assertNotEquals("Wrong", 12,12.5);
+        assertNotEquals("Wrong", 500,15);
     }
 
     @Test
-    public void onResume() {
+    public void TestonResume() {
         int result = StatsActivity.BIND_IMPORTANT;
-        assertNotEquals("Wrong", 12,12.5);
+        assertNotEquals("Wrong", 182,85);
     }
 }

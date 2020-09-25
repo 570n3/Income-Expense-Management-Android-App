@@ -15,25 +15,25 @@ public class PayListAdapterTest {
     }
 
     @Test
-    public void setHistoryButtonListener() {
+    public void TestsetHistoryButtonListener() {
         PayListAdapterTest result = new PayListAdapterTest();
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void onCreateViewHolder() {
+    public void TestonCreateViewHolder() {
         PayListAdapterTest result = new PayListAdapterTest();
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void onBindViewHolder() {
+    public void TestonBindViewHolder() {
         PayListAdapterTest result = new PayListAdapterTest();
         assertNotEquals("Wrong", 12,12.5);
     }
 
     @Test
-    public void getItemCount() {
+    public void TestgetItemCount() {
         PayListAdapterTest result = new PayListAdapterTest();
         assertNotEquals("Wrong", 12,12.5);
     }

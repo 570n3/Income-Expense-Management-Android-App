@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class HistoryDetailTest {
 
     @Test
-    public void showHistory() {
+    public void TestshowHistory() {
         int result = FilterActivity.TAG;
         assertNotEquals("Wrong", 12,12.5);
     }

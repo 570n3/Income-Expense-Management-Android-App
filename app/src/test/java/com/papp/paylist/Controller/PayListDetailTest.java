@@ -17,7 +17,7 @@ public class PayListDetailTest {
 
     @Test
     public void onResume() {
-        int result = PayListDetail.EXPENSE;
-        assertNotEquals("Wrong", 12,12.5);
+        int result = PayListDetail.INCOME;
+        assertNotEquals("Wrong", 50,120);
     }
 }
